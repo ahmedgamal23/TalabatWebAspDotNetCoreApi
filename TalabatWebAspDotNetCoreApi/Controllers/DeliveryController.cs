@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TalabatWebAspDotNetCoreApi.Data.ModelViews;
 using TalabatWebAspDotNetCoreApi.Data.Repositories.DeliveryData;
@@ -17,8 +18,9 @@ namespace TalabatWebAspDotNetCoreApi.Controllers
             _serviceDelivery = serviceDelivery;
         }
 
+        [Authorize]
         [HttpGet("[action]")]
-        public async Task<IActionResult> GetAllReviews()
+        public async Task<IActionResult> GetAllDelivery()
         {
             if (ModelState.IsValid)
             {
@@ -33,7 +35,7 @@ namespace TalabatWebAspDotNetCoreApi.Controllers
         }
 
         [HttpGet("[action]")]
-        public async Task<IActionResult> GetReview(int id)
+        public async Task<IActionResult> GetDelivery(int id)
         {
             if (ModelState.IsValid)
             {
@@ -48,7 +50,7 @@ namespace TalabatWebAspDotNetCoreApi.Controllers
         }
 
         [HttpPost("[action]")]
-        public async Task<IActionResult> AddOrderItem([FromBody] DtoDelivery dtoDelivery)
+        public async Task<IActionResult> AddDeliveryItem([FromBody] DtoDelivery dtoDelivery)
         {
             if (ModelState.IsValid)
             {
@@ -63,7 +65,7 @@ namespace TalabatWebAspDotNetCoreApi.Controllers
         }
 
         [HttpPut("[action]/{id}")]
-        public async Task<IActionResult> UpdateOrderItem([FromRoute] int id, DtoDelivery dtoDelivery)
+        public async Task<IActionResult> UpdateDeliveryItem([FromRoute] int id, DtoDelivery dtoDelivery)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +80,7 @@ namespace TalabatWebAspDotNetCoreApi.Controllers
         }
 
         [HttpDelete("[action]")]
-        public async Task<IActionResult> DeleteOrderItem([FromRoute] int id)
+        public async Task<IActionResult> DeleteDeliveryItem([FromRoute] int id)
         {
             if (ModelState.IsValid)
             {
