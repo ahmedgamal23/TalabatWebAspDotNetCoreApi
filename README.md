@@ -140,12 +140,15 @@
     - Ensure to include the JWT token in the Authorization header for endpoints that require authentication.
 
 
-## Sample:
+## Samples from swagger:
 ![Screenshot (592)](https://github.com/user-attachments/assets/cae91543-b41f-4908-967c-393b8a440988)
 
 ![Screenshot (593)](https://github.com/user-attachments/assets/42358afd-e93b-453b-b23b-445fdcdb9c55)
 
 
+## samples from Postman:
+![Screenshot 2024-10-27 115523](https://github.com/user-attachments/assets/cec63257-40bb-4f77-95ca-5a6733e8220f)
+![Screenshot 2024-10-27 115614](https://github.com/user-attachments/assets/f67009d6-d137-4fd5-921b-9c23d1e6921e)
 
 
 
