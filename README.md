@@ -1,16 +1,16 @@
 # Talabat Project - ASP.NET Core 8 API
 
 ## Description: 
-   #### Developed a robust API for a food delivery service, Talabat, using ASP.NET Core 8. The project includes various controllers and a class library to manage different aspects of the service.
+   ##### Developed a robust API for a food delivery service, Talabat, using ASP.NET Core 8. The project includes various controllers and a class library to manage different aspects of the service.
 
 ## Key Features:
-  ### Account Management: Implemented user registration and login with JWT authentication, supporting roles such as Customer, Admin, and DeliveryPerson.
-  ### Delivery Management: CRUD operations for delivery data.
-  ### Menu Management: CRUD operations for menu items.
-  ### Order Management: CRUD operations for orders and order items.
-  ### Payment Management: CRUD operations for payments.
-  ### Restaurant Management: CRUD operations for restaurant data.
-  ### Review Management: CRUD operations for reviews.
+  ##### Account Management: Implemented user registration and login with JWT authentication, supporting roles such as Customer, Admin, and DeliveryPerson.
+  ##### Delivery Management: CRUD operations for delivery data.
+  ##### Menu Management: CRUD operations for menu items.
+  ##### Order Management: CRUD operations for orders and order items.
+  ##### Payment Management: CRUD operations for payments.
+  ##### Restaurant Management: CRUD operations for restaurant data.
+  ##### Review Management: CRUD operations for reviews.
 
 # Technical Details:
   ## Controllers: Account, Delivery, MenuItem, Order, OrderItem, Payment, Restaurant, Review.
@@ -30,7 +30,7 @@
 ### ------------------------------
 
 # Overview :
-  ## This project is a comprehensive API for a food delivery service, Talabat, developed using ASP.NET Core 8. It includes various controllers to manage different aspects of the service, such as user accounts, deliveries, menu items, orders, payments, restaurants, and reviews.
+  #### This project is a comprehensive API for a food delivery service, Talabat, developed using ASP.NET Core 8. It includes various controllers to manage different aspects of the service, such as user accounts,          deliveries, menu items, orders, payments, restaurants, and reviews.
 
 # Features
   ## Account Management
