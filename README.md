@@ -26,8 +26,8 @@
   ### JWT Authentication
   ### RESTful API Design
 
-# -------------------------------------------------------------------------------------------
-# -------------------------------------------------------------------------------------------
+### ------------------------------
+### ------------------------------
 
 # Overview :
   ## This project is a comprehensive API for a food delivery service, Talabat, developed using ASP.NET Core 8. It includes various controllers to manage different aspects of the service, such as user accounts, deliveries, menu items, orders, payments, restaurants, and reviews.
@@ -140,6 +140,10 @@
     - Ensure to include the JWT token in the Authorization header for endpoints that require authentication.
 
 
+## Sample:
+![Screenshot (592)](https://github.com/user-attachments/assets/cae91543-b41f-4908-967c-393b8a440988)
+
+![Screenshot (593)](https://github.com/user-attachments/assets/42358afd-e93b-453b-b23b-445fdcdb9c55)
 
 
 
