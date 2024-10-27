@@ -1,0 +1,6 @@
+@TalabatWebAspDotNetCoreApi_HostAddress = http://localhost:5239
+
+GET {{TalabatWebAspDotNetCoreApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
